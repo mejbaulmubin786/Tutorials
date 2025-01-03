@@ -1,0 +1,12 @@
+[submodule "css-grid"]
+	path = css-grid
+	url = https://github.com/dinanathsj29/css-grid-beginners-tutorial
+[submodule "html5-essentials"]
+	path = html5-essentials
+	url = https://github.com/dinanathsj29/html5-essentials-tutorial
+[submodule "css3-fundamentals"]
+	path = css3-fundamentals
+	url = https://github.com/dinanathsj29/css3-fundamentals-tutorial
+[submodule "web-design-development"]
+	path = web-design-development
+	url = https://github.com/dinanathsj29/web-design-development-fundamentals-tutorial
