@@ -10,3 +10,39 @@
 [submodule "web-design-development"]
 	path = web-design-development
 	url = https://github.com/dinanathsj29/web-design-development-fundamentals-tutorial
+[submodule "javascript-beginners"]
+	path = javascript-beginners
+	url = https://github.com/mejbaulmubin786/javascript-beginners-tutorial
+[submodule "ES6-ECMAScript6"]
+	path = ES6-ECMAScript6
+	url = https://github.com/dinanathsj29/ES6-ECMAScript6-ECMAScript2015-tutorial
+[submodule "typescript"]
+	path = typescript
+	url = https://github.com/dinanathsj29/typescript-tutorial
+[submodule "unix-tutorial"]
+	path = unix-tutorial
+	url = https://github.com/dinanathsj29/unix-tutorial-for-beginners
+[submodule "http-tutorial"]
+	path = http-tutorial
+	url = https://github.com/dinanathsj29/http-quick-introduction
+[submodule "javascript-exercise"]
+	path = javascript-exercise
+	url = https://github.com/dinanathsj29/javascript-exercise-beginners
+[submodule "vscode-guide"]
+	path = vscode-guide
+	url = https://github.com/dinanathsj29/vscode-visual-studio-code
+[submodule "grunt-tutorial"]
+	path = grunt-tutorial
+	url = https://github.com/dinanathsj29/grunt-javascript-task-runner
+[submodule "css-variables"]
+	path = css-variables
+	url = https://github.com/dinanathsj29/css-variables-practical-guide-tutorial
+[submodule "css-flexbox"]
+	path = css-flexbox
+	url = https://github.com/dinanathsj29/css-flexbox-beginners-tutorial
+[submodule "web-services-tutorial"]
+	path = web-services-tutorial
+	url = https://github.com/dinanathsj29/web-services-web-api-soap-rest-tutorial
+[submodule "ajax-tutorial"]
+	path = ajax-tutorial
+	url = https://github.com/dinanathsj29/ajax-asynchronous-javascript-and-xml-course-tutorial
