@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- internal style -->
+     <style>
+      /* css selector: { property:value; } */
+      body {
+        font-family: arial;
+      }
+    </style>
+
+    <!-- uncomment a title/script as per required exammple -->    
+
+    <!-- <title>3_6_es6_ts_transpiling</title> -->
+    <!-- <title>4_1_es6_ts_var_hoisting</title> -->
+    <!-- <title>4_2_es6_ts_let</title> -->
+    <!-- <title>4_3_es6_ts_let_loop</title> -->
+    <!-- <title>4_4_1_ts_const_var</title> -->
+    <!-- <title>4_4_2_ts_const_array</title> -->
+    <!-- <title>4_4_3_ts_const_object</title> -->
+    <!-- <title>4_4_3_ts_const_object</title> -->
+    <!-- <title>5_1_es6_ts_fat_arrow_function</title> -->
+    <!-- <title>5_2_es6_ts_fat_arrow_function_this_scope</title> -->
+    <!-- <title>6_1_es6_ts_parameters_default_value</title> -->
+    <!-- <title>6_2_es6_ts_parameters_rest_operator</title> -->
+    <!-- <title>6_3_es6_ts_spread_operator</title> -->
+    <!-- <title>7_1_es6_ts_object_property_shorthand</title> -->
+    <!-- <title>7_2_es6_ts_object_property_name_spacing</title> -->
+    <!-- <title>8_1_es6_ts_template_strings_literals_interpolation</title> -->
+    <!-- <title>9_1_es6_ts_destructuring_array</title> -->
+    <!-- <title>9_2_es6_ts_destructuring_object</title> -->
+    <!-- <title>10_1_es6_ts_loop_for_of</title> -->
+    <!-- <title>11_1_es6_ts_class</title> -->
+    <!-- <title>11_2_es6_ts_class_body_methods</title> -->
+    <!-- <title>11_3_es6_ts_class_inheritance</title> -->
+    <!-- <title>12_1_es6_ts_module_app</title> -->
+    <!-- <title>12_2_es6_ts_module_default_import_app</title> -->
+    <!-- <title>13_1_es6_ts_function_generators</title> -->
+    <!-- <title>14_1_es5_ts_sets</title> -->
+    <!-- <title>14_2_es6_ts_sets</title> -->
+    <!-- <title>14_3_es5_ts_weaksets</title> -->
+    <!-- <title>14_4_es6_ts_weaksets</title> -->
+    <!-- <title>15_1_es5_ts_maps</title> -->
+    <!-- <title>15_2_es6_ts_maps</title> -->
+    <!-- <title>15_3_es6_ts_iterating_over_maps</title> -->
+    <!-- <title>16_1_es6_ts_symbol</title> -->
+    <!-- <title>16_2_es6_ts_symbol_registry</title> -->
+    <!-- <title>16_3_es6_ts_symbol_iterator</title> -->
+    <!-- <title>17_1_es6_ts_iterator</title> -->
+    <!-- <title>17_2_es6_ts_iterating_objects</title> -->
+
+    <!-- <script src="./scripts/3_6_es6_ts_transpiling.js"></script> -->
+    <!-- <script src="./scripts/4_1_es6_ts_var_hoisting.js"></script> -->
+    <!-- <script src="./scripts/4_2_es6_ts_let.js"></script> -->
+    <!-- <script src="./scripts/4_3_es6_ts_let_loop.js"></script> -->
+    <!-- <script src="./scripts/4_4_1_ts_const_var.js"></script> -->
+    <!-- <script src="./scripts/4_4_2_ts_const_array.js"></script> -->
+    <!-- <script src="./scripts/4_4_3_ts_const_object.js"></script> -->
+    <!-- <script src="./scripts/4_4_3_ts_const_object.js"></script> -->
+    <!-- <script src="./scripts/5_1_es6_ts_fat_arrow_function.js"></script> -->
+    <!-- <script src="./scripts/5_2_es6_ts_fat_arrow_function_this_scope.js"></script> -->
+    <!-- <script src="./scripts/6_1_es6_ts_parameters_default_value.js"></script> -->
+    <!-- <script src="./scripts/6_2_es6_ts_parameters_rest_operator.js"></script> -->
+    <!-- <script src="./scripts/6_3_es6_ts_spread_operator.js"></script> -->
+    <!-- <script src="./scripts/7_1_es6_ts_object_property_shorthand.js"></script> -->
+    <!-- <script src="./scripts/7_2_es6_ts_object_property_name_spacing.js"></script> -->
+    <!-- <script src="./scripts/8_1_es6_ts_template_strings_literals_interpolation.js"></script> -->
+    <!-- <script src="./scripts/9_1_es6_ts_destructuring_array.js"></script> -->
+    <!-- <script src="./scripts/9_2_es6_ts_destructuring_object.js"></script> -->
+    <!-- <script src="./scripts/10_1_es6_ts_loop_for_of.js"></script> -->
+    <!-- <script src="./scripts/11_1_es6_ts_class.js"></script> -->
+    <!-- <script src="./scripts/11_2_es6_ts_class_body_methods.js"></script> -->
+    <!-- <script src="./scripts/11_3_es6_ts_class_inheritance.js"></script> -->
+    <!-- <script src="./scripts/12_modules/12_1_es6_ts_module_app.js"></script> -->
+    <!-- <script src="./scripts/12_modules/12_2_es6_ts_module_default_import_app.js"></script> -->
+    <!-- <script src="./scripts/13_1_es6_ts_function_generators.js"></script> -->
+    <!-- <script src="./scripts/14_1_es5_ts_sets.js"></script> -->
+    <!-- <script src="./scripts/14_2_es6_ts_sets.js"></script> -->
+    <!-- <script src="./scripts/14_3_es5_ts_weaksets.js"></script> -->
+    <!-- <script src="./scripts/14_4_es6_ts_weaksets.js"></script> -->
+    <!-- <script src="./scripts/15_1_es5_ts_maps.js"></script> -->
+    <!-- <script src="./scripts/15_2_es6_ts_maps.js"></script> -->
+    <!-- <script src="./scripts/15_3_es6_ts_iterating_over_maps.js"></script> -->
+    <!-- <script src="./scripts/16_1_es6_ts_symbol.js"></script> -->
+    <!-- <script src="./scripts/16_2_es6_ts_symbol_registry.js"></script> -->
+    <!-- <script src="./scripts/16_3_es6_ts_symbol_iterator.js"></script> -->
+    <!-- <script src="./scripts/17_1_es6_ts_iterator.js"></script> -->
+    <!-- <script src="./scripts/17_2_es6_ts_iterating_objects.js"></script> -->
+   
+  </head>
+
+  <body>
+      
+    <h1>Working with ES6 & Typescript features</h1>
+
+    <!-- uncomment a heading as per required exammple -->    
+
+    <!-- <h2>3_6_es6_ts_transpiling</h2> -->
+    <!-- <h2>4_1_es6_ts_var_hoisting</h2> -->
+    <!-- <h2>4_2_es6_ts_let</h2> -->
+    <!-- <h2>4_3_es6_ts_let_loop</h2> -->
+    <!-- <h2>4_4_1_ts_const_var</h2> -->
+    <!-- <h2>4_4_2_ts_const_array</h2> -->
+    <!-- <h2>4_4_3_ts_const_object</h2> -->
+    <!-- <h2>4_4_3_ts_const_object</h2> -->
+    <!-- <h2>5_1_es6_ts_fat_arrow_function</h2> -->
+    <!-- <h2>5_2_es6_ts_fat_arrow_function_this_scope</h2> -->
+    <!-- <h2>6_1_es6_ts_parameters_default_value</h2> -->
+    <!-- <h2>6_2_es6_ts_parameters_rest_operator</h2> -->
+    <!-- <h2>6_3_es6_ts_spread_operator</h2> -->
+    <!-- <h2>7_1_es6_ts_object_property_shorthand</h2> -->
+    <!-- <h2>7_2_es6_ts_object_property_name_spacing</h2> -->
+    <!-- <h2>8_1_es6_ts_template_strings_literals_interpolation</h2> -->
+    <!-- <h2>9_1_es6_ts_destructuring_array</h2> -->
+    <!-- <h2>9_2_es6_ts_destructuring_object</h2> -->
+    <!-- <h2>10_1_es6_ts_loop_for_of</h2> -->
+    <!-- <h2>11_1_es6_ts_class</h2> -->
+    <!-- <h2>11_2_es6_ts_class_body_methods</h2> -->
+    <!-- <h2>11_3_es6_ts_class_inheritance</h2> -->
+    <!-- <h2>12_1_es6_ts_module_app</h2> -->
+    <!-- <h2>12_2_es6_ts_module_default_import_app</h2> -->
+    <!-- <h2>13_1_es6_ts_function_generators</h2> -->
+    <!-- <h2>14_1_es5_ts_sets</h2> -->
+    <!-- <h2>14_2_es6_ts_sets</h2> -->
+    <!-- <h2>14_3_es5_ts_weaksets</h2> -->
+    <!-- <h2>14_4_es6_ts_weaksets</h2> -->
+    <!-- <h2>15_1_es5_ts_maps</h2> -->
+    <!-- <h2>15_2_es6_ts_maps</h2> -->
+    <!-- <h2>15_3_es6_ts_iterating_over_maps</h2> -->
+    <!-- <h2>16_1_es6_ts_symbol</h2> -->
+    <!-- <h2>16_2_es6_ts_symbol_registry</h2> -->
+    <!-- <h2>16_3_es6_ts_symbol_iterator</h2> -->
+    <!-- <h2>17_1_es6_ts_iterator</h2> -->
+    <!-- <h2>17_2_es6_ts_iterating_objects</h2> -->
+
+  </body>
+
+</html>
