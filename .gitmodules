@@ -46,3 +46,6 @@
 [submodule "ajax-tutorial"]
 	path = ajax-tutorial
 	url = https://github.com/dinanathsj29/ajax-asynchronous-javascript-and-xml-course-tutorial
+[submodule "json-javascript-object-notation-crash-course"]
+	path = json-javascript-object-notation-crash-course
+	url = https://github.com/dinanathsj29/json-javascript-object-notation-crash-course
