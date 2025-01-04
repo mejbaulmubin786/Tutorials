@@ -1,6 +1,3 @@
-[submodule "css-grid"]
-	path = css-grid
-	url = https://github.com/dinanathsj29/css-grid-beginners-tutorial
 [submodule "html5-essentials"]
 	path = html5-essentials
 	url = https://github.com/dinanathsj29/html5-essentials-tutorial
